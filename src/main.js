@@ -1,4 +1,4 @@
-const weatherBlock = document.querySelector("#weather");
+const weatherBlock = document.querySelector(".weather");
 
 async function loadWeather() {
 	weatherBlock.innerHTML = `
