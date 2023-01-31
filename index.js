@@ -3,7 +3,7 @@ const weatherBlock = document.querySelector(".weather");
 async function loadWeather() {
 	weatherBlock.innerHTML = `
 		<div>
-			<img class="weather__loading" src="../img/Full-snake.gif" alt="loading..." />
+			<img class="weather__loading" src="./img/Full-snake.gif" alt="loading..." />
 		</div>`;
 
 	const server = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=Tbilisi&appid=258e0ef736b82923c0cbbeeff17eaf75`;
