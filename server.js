@@ -21,7 +21,6 @@ app.post("/", function (req, res) {
 	let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`;
 
 	request(url, function (err, response, body) {
-		console.log(body);
 		if (err) {
 			res.render("index", {
 				weather: null,
@@ -29,8 +28,9 @@ app.post("/", function (req, res) {
 			});
 		} else {
 			let weather = JSON.parse(body);
+			console.log(weather);
 
-			if (weather.main == undefined) {
+			if (!weather.main) {
 				res.render("index", {
 					weather: null,
 					error: "error, please try again",
