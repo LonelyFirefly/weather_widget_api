@@ -1,0 +1,28 @@
+{
+	"dependencies": {
+		"body-parser": "^1.20.1",
+		"ejs": "^3.1.8",
+		"express": "^4.18.2",
+		"request": "^2.88.2",
+		"dotenv": "^16.0.3",
+		"nodemon": "^2.0.20"
+	},
+	"name": "weather-widget-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"startDev": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/LonelyFirefly/weather_widget_api.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/LonelyFirefly/weather_widget_api/issues"
+	},
+	"homepage": "https://github.com/LonelyFirefly/weather_widget_api#readme",
+	"description": ""
+}
