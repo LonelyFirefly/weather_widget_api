@@ -11,7 +11,7 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"startDev": "nodemon server.js"
+		"startDev": "nodemon index.js"
 	},
 	"repository": {
 		"type": "git",
